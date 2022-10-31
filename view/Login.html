@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+       .col {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    width: 300px;
+    border: 5px solid rgb(66, 3, 253);
+    padding: 50px;
+    margin: 20px;
+    color: rgb(211, 13, 86);
+    background-color:rgb(49, 239, 191);
+    text-align: center;
+    font-size: 25px;
+    }
+      </style>
+  </head>
+  <body style="background-color:aqua">
+    <br><br>
+    <h1 align="center">Login</h1>
+    <br>
+    <center>
+    <form action="sign-in" method="GET">
+    <div class="container">
+          <div class="col">
+            <label><b>Email</b></label><br><br>
+            <input
+              type="email"
+              placeholder="Enter Email"
+              required
+              name="email"
+            /><br /><br>
+            <label><b>Password</b></label><br><br>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              required
+              name="password"
+            /><br /><br>
+            <input type="submit" value="Login" /><br><br>
+            <button type="cancel" onclick="javascript:window.location='http://stackoverflow.com';">Cancel</button>
+          </div> 
+      </form> 
+    </div>
+  </center>
+  </body>
+</html>

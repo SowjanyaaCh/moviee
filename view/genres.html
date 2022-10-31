@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" >
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#genres{
+  background: #c4d7e0;
+}
+#genres h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+#genres img{
+  width: 200px;
+  height: 200px;
+}
+.card{
+  width: 250px;
+  height: 300px;
+  background: #bbc295;
+  border: none;
+  border-radius: 2px ;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 60px;
+  transition: .2s;
+}
+    </style>
+</head>
+<body style="background-color:blanchedalmond">
+    
+      <section id="bgenres">
+          <div class="container m-5">
+            <h1 class="text-center my-5">Different Genres of Movies</h1>
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                  <img src="action.jpg" height=200px; class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Action</h5>
+                    <form action="/Action" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" >
+                  <img src="animation.jpg" height=200px; class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Animation</h5>
+                    <form action="/Animation" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" >
+                  <img src="Apocalypse.jpg" height=180px; class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Apocalypse</h5>
+                    <form action="/Apocalypse" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>       
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" >
+                  <img src="comedy.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Comedy</h5>
+                    <form action="/Comedy" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" >
+                  <img src="horror.jpg" height = 190px; width =250px;class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Horror</h5>
+                    <form action="/Horror" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" >
+                  <img src="romance.jpg" height=250px; class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Romance</h5>
+                    <form action="/Romance" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>        
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" >
+                  <img src="thriller.jpg" height=200px; class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Thriller</h5>
+                    <form action="/Thriller" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" >
+                  <img src="Science_fiction.jpg" class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Science_fiction</h5>
+                    <form action="/Science_fiction" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="card" >
+                  <img src="drama.jpg" height =200px; class="card-img-top">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Drama</h5>
+                    <form action="/Drama" method="get">
+                      <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">View</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <form action="/" method="get" >
+                <button class="btn p-2 my-lg-0 my-2 btn-primary" type="submit">Go Back</button>
+              </form>
+            </div>             
+          </div>
+          
+      </section>
+      
+    
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" ></script>
+</body>
+</html>
